@@ -2,7 +2,7 @@
 name = "latte-gallery"
 version = "0.1.0"
 description = ""
-authors = ["kibaster <2006yanp@gmail.com>"]
+authors = ["arsuhinars <arsuhinars@gmail.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
@@ -11,8 +11,6 @@ fastapi = "^0.115.2"
 pydantic = "^2.9.2"
 uvicorn = "^0.32.0"
 
-[tool.poetry.group.dev.dependencies]
-yes = "^0.0.1"
 
 [build-system]
 requires = ["poetry-core"]
