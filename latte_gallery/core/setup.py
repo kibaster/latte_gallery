@@ -1,9 +1,9 @@
 from contextlib import asynccontextmanager
 from typing import cast
 
+
 from fastapi import Depends, FastAPI
 from fastapi.middleware.cors import CORSMiddleware
-
 from latte_gallery.accounts.repository import AccountRepository
 from latte_gallery.accounts.routers import accounts_router
 from latte_gallery.accounts.services import AccountsCreator, AccountService
